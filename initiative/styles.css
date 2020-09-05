@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #121212;
+    color: #DADADA;
+    font-family: 'Montserrat', sans-serif;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    margin: 24px;
+    padding: 12px;
+}
+
+button, input {
+    padding: 12px;
+    margin: 12px;
+    background-color: #242424;
+    color: #DADADA;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    transition: box-shadow 0.25s;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+input:focus, button:hover {
+    box-shadow: 5px 5px #DADADA;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+table {
+    width: 100%;
+}
+
+th {
+    width: 50%;
+    padding: 12px;
+    border-bottom: 1px solid #DADADA;
+}
+
+th:first-of-type {
+    border-right: 1px solid #DADADA;
+}
+
+td {
+    width: 50%;
+    padding: 12px;
+}
+
+td:first-of-type {
+    border-right: 1px solid #DADADA;
+}
